@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+	font-family: Montserrat, serif;
+}
+html{
+    font-size: 40px;
+}
+/*Medidas Absolutas*/
+.cm{
+    font-size: 2cm;
+}
+
+.ml{
+    font-size: 5mm;
+}
+
+.px{
+    font-size: 10px;
+}
+
+.pt{
+    font-size: 10pt;
+}
+
+
+.pul{
+    font-size: 30pt;
+}
+
+.pc{
+    font-size: 1pc;
+}
+/*Medidas relativas*/
+.em{
+    font-size: 1em;
+}
+.padreEm{
+    font-size: 32px;
+}
+.rem{
+    font-size: 2rem; /*1 rem = 16 px*/
+}
+
+img{
+    width: 30vw;
+    height: 30vh;
+}

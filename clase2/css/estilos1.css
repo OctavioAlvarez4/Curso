@@ -1,0 +1,70 @@
+*{
+    
+    
+}
+
+header{
+    background-color:#33B5FF ;
+    height: 70px;
+}
+
+section{
+    background-color:#33FCFF ;
+}
+
+article{
+    background-color:#338DFF ;
+}
+
+footer{
+    background-color:#333CFF ;
+}
+
+/*Propiedades de texto*/
+
+h1{
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.p1{
+    word-spacing: 5px;
+}
+
+.p2{
+    text-transform: uppercase;
+}
+h3{
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-style: wavy;
+}
+
+
+
+/*Bordes*/
+.tabla{
+    border: 2px solid black;
+    
+}
+
+td {
+    border-left: 1px dotted orange;
+    border-right: 1px solid green;
+    border-top: 1px double blue;
+    border-bottom: 1px solid pink;
+}
+
+button{
+    border-radius: 15px;
+    border: none;
+
+}
+
+ol li {
+    list-style-type: square;
+}
+
+ul li{
+    list-style-type: circle;
+}

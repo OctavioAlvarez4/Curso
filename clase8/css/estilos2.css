@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+html {
+	font-family: Montserrat, serif;
+	margin: 0;
+	padding-bottom: 800px;
+}
+.padre{
+    border: 1px solid black;
+    width: 50vw;
+    height: 50vh;
+    background-color: cornflowerblue;
+    margin: auto;
+}
+
+.relative{
+    background-color: darkblue;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 35px;
+    
+}
+
+.absolute{
+    background-color: darkgreen;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    
+}
+.fixed{
+    background-color: darkmagenta;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 20px;
+    right: 0;
+    z-index: -55;
+}
+.sticky{
+    background-color: darkorange;
+    width: 150px;
+    height: 150px;
+    position: sticky;
+    top:20px;
+}

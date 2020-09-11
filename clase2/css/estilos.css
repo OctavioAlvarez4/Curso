@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
+*{
+    font-family:  'Lato', sans-serif;;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+h2{
+    color: green;
+}
+
+h1{
+    color: blue;
+}
+
+.rojo{
+    color: red;
+    font-size: 32px;
+}
+
+#subtitulo{
+    background-color:#33FFDA;
+    font-weight: bold;
+}
+
+.italica{
+    font-style:italic;
+}
+
+.color{
+    color: rgba(51, 181, 255, 1)
+}
+
+.p1{
+    font-size: 2rem;
+}
+
+.p2{
+
+}
