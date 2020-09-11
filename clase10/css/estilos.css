@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+h1:hover{
+    font-family: 'Lobster';
+    text-align: center;
+    font-size: 3rem;
+    transition-property: color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    color: rgb(7, 105, 105);
+}
+
+#transicion{
+    width: 20vw;
+    height: 5vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,69,26,1) 20%, rgba(9,121,18,1) 35%, rgba(0,212,255,1) 100%);
+}
+#transicion:hover{
+    transition: width 2s ease-in-out;
+    width: 100vw;
+}
+.flex-container{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton{
+    height: 10vh;
+    width: 20vw;
+    cursor: pointer;
+    transition: 2s box-shadow ease-out;
+}
+.boton:hover{
+    background-color: brown;
+    color: white;
+    font-size: 1.1rem;
+    transform: scale(1.2);
+    box-shadow: 0px 2px 2px black;
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    
+}
+#div-animado{
+    animation: ejemplo 10s infinite;
+}
+@keyframes ejemplo {
+    0% {
+        width: 10vw;
+        height: 10vh;
+        background-color: cornflowerblue;
+    }
+    25%{
+        width: 20vw;
+        height: 15vh;
+        background-color: darkgreen;
+    }
+    50%{
+        width: 30vw;
+        height: 20vh;
+        background-color: darkseagreen;
+    }
+    75%{
+        width: 70vw;
+        height: 30vh;
+        background-color: deeppink;
+    }
+    100%
+    {
+        width: 100vw;
+        height: 50vh;
+        background-color: firebrick;
+    }
+}
+
+.imagen-mundo{
+    margin: 5%;
+    display: block;
+    width: 150px;
+    height: 150px;
+    animation-name: mundo 4s alternate-reverse forwards infinite ;
+    /*animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;*/
+
+}
+.imagen-mundo:hover{
+    animation-play-state: paused;
+}
+@keyframes mundo{
+    from{
+        transform: translate(-5vw,0) rotate(0);
+    }
+    to{
+        transform: translate(60vw,0) rotate(360);
+    }
+}
+
+@-webkit-keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
